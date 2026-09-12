@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Capture and segmentation outputs (often large and reproducible)
+*.uyvy
+*.mp4
+grain_segment_v4_results/
+segmentation_preview_v4.mp4
+background_model.jpg
+crops/
+masks/
+
+# OS/editor files
+.DS_Store
+.vscode/
